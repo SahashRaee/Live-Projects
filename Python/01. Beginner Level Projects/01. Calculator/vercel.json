@@ -1,0 +1,9 @@
+{
+  "builds": [
+    { "src": "app.py", "use": "@vercel/python" }
+  ],
+  "routes": [
+    { "src": "/(.*)", "dest": "app.py" }
+  ]
+}
+// This file is used to configure the Vercel deployment for a Python application.
